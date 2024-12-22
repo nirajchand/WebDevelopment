@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+}
+
+.item {
+    background-color: rgb(13, 236, 233);
+    border: 1px, solid black;
+    padding: 10px;
+    height: 50px;
+}
+
+.display{
+    background-color: white;
+    grid-column: 1/4;
+}

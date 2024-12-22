@@ -1,0 +1,65 @@
+body {
+    background-color: #DEAA79;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    height: 100%;
+}
+
+.napBar {
+    position: sticky; /* Makes it stick to the top */
+    top: 0; /* Ensures it stays at the top */
+    z-index: 1000; /* Ensures it stays above other elements */
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    background-color: white; /* Ensures visibility */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for emphasis */
+}
+
+.element a {
+    text-decoration: none;
+    color: black;
+}
+
+.niraj {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 280px;
+    color: black;
+}
+
+.Intro,
+.about,
+.education,
+.projects,
+.contact {
+    padding: 50px;
+    height: 100vh; /* Full viewport height */
+}
+
+.about {
+    background-color: #134B70;
+    color: white;
+}
+
+.education {
+    background-color: #F4D03F;
+    color: black;
+}
+
+.projects {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.contact {
+    background-color: #34495E;
+    color: white;
+}

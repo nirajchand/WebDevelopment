@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    /* grid-template-columns: 200px 150px 140px 140px; */
+    /* justify-content: space-around; */
+    /* align-content: center; */
+    align-content: space-evenly;
+    background-color: yellowgreen;
+}
+
+.grid-item{
+    background-color: aqua;
+    border: 5px, solid black;
+    padding: 20px;
+    /* margin: 20px; */
+}

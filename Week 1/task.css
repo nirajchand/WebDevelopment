@@ -1,0 +1,114 @@
+
+body{
+    background-color: rgb(31, 231, 4);
+}
+
+.nap{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nap > .napDiv{
+    margin-right: 800px;
+    margin-left: 0px;
+}
+
+.nap > img{
+    height: 30px;
+    width: 30px;
+}
+
+.nap > .downloadbtn {
+    display:flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.nap > .downloadbtn > img{
+    display: inline-block;
+    height: 30px;
+    width: auto;
+}
+
+
+.profile_ic{
+    border-radius: 50%;
+}
+
+.text_img{
+    height: 500px;
+    display: flex
+}
+
+.text_container{
+    height: 400px;
+    width: 500px;
+    margin: 70px 120px;
+}
+
+.font{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 5px;
+}
+
+.font_family{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+   
+
+#second_line2{
+    display: inline-block;
+    color: rgb(58, 26, 123);
+}
+
+.van_img{
+    height: 400px;
+    width: 600px;
+    margin: 40px -180px;
+    background-image: url('van.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.track_section{
+    height: 120px;
+    width: 1170px;
+    border: 1px solid black;
+    margin: 20px 130px;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 232,0.5);
+    background-image: url('search.png');
+    background-repeat: no-repeat;
+    background-size: 2%;
+    background-position-x: 30px;
+    background-position-y: 50px;
+    display: flex;
+}
+
+.track_section p{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position-x: 40px;
+    background-position-y: 50px;
+    margin: 53px 70px;
+}
+
+.track_btn{
+    height: 60px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 470px;
+    background-color: rgb(232, 232, 232,0.58);
+    border-radius: 10px;
+    border: none;
+}
+
+.track_btn:hover{
+    transform: scale(1.02);
+    background-color: rgb(232, 232, 232,0.68);
+}
